@@ -104,6 +104,7 @@ a {
     border: 3px solid var(--border-color); /* border */
     border-radius: 5px;
     padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
     cursor: pointer;
     display: flex; /* To center icon */
     align-items: center;
@@ -323,7 +324,7 @@ a {
 /* No explicit 960px breakpoint needed if 768px handles the main layout, 
    but we can constrain the max width of the elements. */
 @media (min-width: 900px) {
-    .site-header, .recipe-grid, .site-footer {
+    .site-header, .recipe-card, .site-footer, .search-button {
         max-width: var(--max-width-desktop);
         margin-left: auto;
         margin-right: auto;
